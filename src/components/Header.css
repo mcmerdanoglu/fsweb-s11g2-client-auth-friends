@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-bottom: 0.2rem solid black;
+}
+
+.navbar {
+  display: flex;
+  column-gap: 2vw;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  padding: 2vh 1vw;
+}

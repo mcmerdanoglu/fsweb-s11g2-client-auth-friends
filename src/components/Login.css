@@ -1,0 +1,43 @@
+.login {
+  font-size: 6rem;
+  font-weight: bolder;
+  border-bottom: none;
+  margin-top: 6rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.username,
+.password {
+  font-size: 2rem;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+input {
+  background-color: black;
+  border: none;
+  color: white;
+  width: 70%;
+  height: 12vh;
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  width: 70%;
+  height: 12vh;
+  font-size: 3rem;
+  font-weight: bolder;
+}
